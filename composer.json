@@ -1,0 +1,23 @@
+{
+    "name": "askual/gpacalc",
+    "description": "gpa and cgpa calculator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "deqiq",
+            "email": "kibdemta@gmail.com"
+        }
+    ],
+    "psr-4": {
+      "Askual\\Gpacalc\\": "src/Gpacalc"
+    },
+    "classmap": [
+        "src"
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "8.0.0"
+    },
+}
